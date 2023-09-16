@@ -1,0 +1,105 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color for the body */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the app container */
+.app {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the header */
+.app h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Style the form */
+.form {
+    text-align: center;
+}
+
+/* Style the button */
+.form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Style the Room ID section */
+.form-id {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+/* Style the file input section */
+.file-input {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Style the files list section */
+.files-list {
+    margin-top: 20px;
+}
+
+/* Style the shared files title */
+.files-list .title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Style individual file items */
+.files-list .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Style the progress bar */
+.files-list .progress {
+    flex: 1;
+    font-size: 14px;
+}
+
+/* Style the filename */
+.files-list .filename {
+    flex: 2;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+/* Style the file input label */
+.file-input label {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Hide the file input */
+#file-input {
+    display: none;
+}
